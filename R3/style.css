@@ -4,7 +4,7 @@ html {
 
 body {
   min-height: 100%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Kanit', sans-serif;
 }
 
 .container {
@@ -39,10 +39,15 @@ body {
 
 .text-section {
     padding: 20px 20px 0 25px;
+    width: 50%;
 } 
 
 p {
     margin: 10px 0;
+}
+
+h1 {
+    line-height: 40px;
 }
 
 /* Modal */
@@ -101,6 +106,9 @@ p {
 }
 
 @media (max-width:768px) {
+    body {
+        font-size: 15px;
+    }
     .container {
         flex-direction: column;
     }
@@ -110,6 +118,7 @@ p {
     .text-section {
         margin: 10px;
         padding: 5px 0;
+        width: 90%;
     }
     .video {
         width: 100%;
