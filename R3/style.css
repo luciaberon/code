@@ -27,7 +27,8 @@ body {
 
 /* video section */
 .video {
-    width: 50%;
+    width: 80vh;
+    height: 60vh;
     position:relative;
     
 }
@@ -38,16 +39,17 @@ body {
 }
 
 .text-section {
-    padding: 20px 20px 0 25px;
+    padding-left:65px;
     width: 50%;
+    align-self: center;
 } 
 
 p {
-    margin: 10px 0;
+    margin: 8px 0;
 }
 
 h1 {
-    line-height: 40px;
+    line-height: 50px;
 }
 
 /* Modal */
@@ -90,25 +92,10 @@ h1 {
     body {
         font-size: 18px;
     }
-    .text-section {
-        align-self: center;
-    }
-}
-
-@media (min-width:768px) {
-    .text-section {
-        margin: 10px;
-        padding-top: 0;
-    }
-    .video {
-        width: 70%;
-    }
 }
 
 @media (max-width:768px) {
-    body {
-        font-size: 15px;
-    }
+
     .container {
         flex-direction: column;
     }
