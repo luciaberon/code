@@ -25,6 +25,11 @@ body {
     outline: none;
 }
 
+.btn img {
+    width: 60%;
+}
+
+
 /* video section */
 .video {
     width: 80vh;
